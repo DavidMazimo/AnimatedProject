@@ -248,3 +248,76 @@ form button:hover {
   margin-top: 2em;
   font-size: 30px;
 }
+/* Music app */
+
+.pads {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+}
+
+.pads > div {
+  flex: 1;
+  height: 100px;
+  width: 100px;
+}
+
+.pad1 {
+  background-color: #60d394;
+}
+
+.pad2 {
+  background-color: #d36060;
+}
+.pad3 {
+  background-color: #c060d3;
+}
+.pad4 {
+  background-color: #d3d160;
+}
+.pad5 {
+  background-color: #6860d3;
+}
+.pad6 {
+  background-color: #60b2d3;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 10%;
+    left: 10%;
+  }
+  50% {
+    bottom: 40%;
+    left: 50%;
+  }
+  100% {
+    bottom: 10%;
+    left: 90%;
+  }
+}
+
+.visual > div {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 0%;
+  z-index: -1;
+}
+.card-music {
+  background: #f1f1f1;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+}
+
+.card-music h3 {
+  margin-top: 2em;
+  font-size: 30px;
+}
