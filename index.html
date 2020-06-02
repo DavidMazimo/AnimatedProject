@@ -8,6 +8,16 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -68,17 +78,16 @@
         </div>
       </section>
 
-      <section class="card" data-aos="fade-right">
-        <img src="https://i.ibb.co/0VywMkW/paint-3.png" alt="" />
-        <div>
-          <h3>Acrylic Painting Three</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
-            enim laudantium, animi veniam libero eveniet culpa unde perferendis
-            illo fugit corporis, voluptatibus totam dolorum, maiores magnam
-            officia. Ab, delectus.
-          </p>
-          <a href="#" class="btn">Buy Now</a>
+      <section class="card-todo" data-aos="fade-right">
+        <h3>To do List</h3>
+        <form>
+          <input type="text" class="todo-input" />
+          <button class="todo-button" type="submit">
+            <i class="fas fa-plus-square"></i>
+          </button>
+        </form>
+        <div class="todo-container">
+          <ul class="todo-list"></ul>
         </div>
       </section>
 
