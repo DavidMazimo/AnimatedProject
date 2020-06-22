@@ -281,7 +281,6 @@ form button:hover {
 .pad6 {
   background-color: #60b2d3;
 }
-
 @keyframes jump {
   0% {
     bottom: 10%;
